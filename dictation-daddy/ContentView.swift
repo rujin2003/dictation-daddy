@@ -7,18 +7,15 @@
 
 import SwiftUI
 
+// MARK: - Root
 struct ContentView: View {
+    @State private var showHome = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if showHome {
+            HomePage()
+        } else {
+          OnboardingView(isOnboardingComplete: $showHome)
         }
-        .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }

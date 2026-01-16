@@ -49,9 +49,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4B546B9E2F1A2B3400DC715E /* dictation-daddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dictation-daddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B546BAB2F1A2B3700DC715E /* dictation-daddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dictation-daddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B546BB52F1A2B3700DC715E /* dictation-daddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dictation-daddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B546B9E2F1A2B3400DC715E /* DictationDaddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictationDaddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B546BAB2F1A2B3700DC715E /* DictationDaddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictationDaddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B546BB52F1A2B3700DC715E /* DictationDaddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictationDaddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B546BCC2F1A2B9D00DC715E /* daddy-keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "daddy-keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -126,20 +126,20 @@
 		4B546B952F1A2B3400DC715E = {
 			isa = PBXGroup;
 			children = (
-				4B546BA02F1A2B3400DC715E /* dictation-daddy */,
 				4B546BAE2F1A2B3700DC715E /* dictation-daddyTests */,
 				4B546BB82F1A2B3700DC715E /* dictation-daddyUITests */,
 				4B546BCD2F1A2B9D00DC715E /* daddy-keyboard */,
 				4B546B9F2F1A2B3400DC715E /* Products */,
+				4B546BA02F1A2B3400DC715E /* dictation-daddy */,
 			);
 			sourceTree = "<group>";
 		};
 		4B546B9F2F1A2B3400DC715E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B546B9E2F1A2B3400DC715E /* dictation-daddy.app */,
-				4B546BAB2F1A2B3700DC715E /* dictation-daddyTests.xctest */,
-				4B546BB52F1A2B3700DC715E /* dictation-daddyUITests.xctest */,
+				4B546B9E2F1A2B3400DC715E /* DictationDaddy.app */,
+				4B546BAB2F1A2B3700DC715E /* DictationDaddyTests.xctest */,
+				4B546BB52F1A2B3700DC715E /* DictationDaddyUITests.xctest */,
 				4B546BCC2F1A2B9D00DC715E /* daddy-keyboard.appex */,
 			);
 			name = Products;
@@ -148,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B546B9D2F1A2B3400DC715E /* dictation-daddy */ = {
+		4B546B9D2F1A2B3400DC715E /* DictationDaddy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B546BBF2F1A2B3700DC715E /* Build configuration list for PBXNativeTarget "dictation-daddy" */;
+			buildConfigurationList = 4B546BBF2F1A2B3700DC715E /* Build configuration list for PBXNativeTarget "DictationDaddy" */;
 			buildPhases = (
 				4B546B9A2F1A2B3400DC715E /* Sources */,
 				4B546B9B2F1A2B3400DC715E /* Frameworks */,
@@ -165,16 +165,16 @@
 			fileSystemSynchronizedGroups = (
 				4B546BA02F1A2B3400DC715E /* dictation-daddy */,
 			);
-			name = "dictation-daddy";
+			name = DictationDaddy;
 			packageProductDependencies = (
 			);
 			productName = "dictation-daddy";
-			productReference = 4B546B9E2F1A2B3400DC715E /* dictation-daddy.app */;
+			productReference = 4B546B9E2F1A2B3400DC715E /* DictationDaddy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4B546BAA2F1A2B3700DC715E /* dictation-daddyTests */ = {
+		4B546BAA2F1A2B3700DC715E /* DictationDaddyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B546BC22F1A2B3700DC715E /* Build configuration list for PBXNativeTarget "dictation-daddyTests" */;
+			buildConfigurationList = 4B546BC22F1A2B3700DC715E /* Build configuration list for PBXNativeTarget "DictationDaddyTests" */;
 			buildPhases = (
 				4B546BA72F1A2B3700DC715E /* Sources */,
 				4B546BA82F1A2B3700DC715E /* Frameworks */,
@@ -188,16 +188,16 @@
 			fileSystemSynchronizedGroups = (
 				4B546BAE2F1A2B3700DC715E /* dictation-daddyTests */,
 			);
-			name = "dictation-daddyTests";
+			name = DictationDaddyTests;
 			packageProductDependencies = (
 			);
 			productName = "dictation-daddyTests";
-			productReference = 4B546BAB2F1A2B3700DC715E /* dictation-daddyTests.xctest */;
+			productReference = 4B546BAB2F1A2B3700DC715E /* DictationDaddyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4B546BB42F1A2B3700DC715E /* dictation-daddyUITests */ = {
+		4B546BB42F1A2B3700DC715E /* DictationDaddyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B546BC52F1A2B3700DC715E /* Build configuration list for PBXNativeTarget "dictation-daddyUITests" */;
+			buildConfigurationList = 4B546BC52F1A2B3700DC715E /* Build configuration list for PBXNativeTarget "DictationDaddyUITests" */;
 			buildPhases = (
 				4B546BB12F1A2B3700DC715E /* Sources */,
 				4B546BB22F1A2B3700DC715E /* Frameworks */,
@@ -211,11 +211,11 @@
 			fileSystemSynchronizedGroups = (
 				4B546BB82F1A2B3700DC715E /* dictation-daddyUITests */,
 			);
-			name = "dictation-daddyUITests";
+			name = DictationDaddyUITests;
 			packageProductDependencies = (
 			);
 			productName = "dictation-daddyUITests";
-			productReference = 4B546BB52F1A2B3700DC715E /* dictation-daddyUITests.xctest */;
+			productReference = 4B546BB52F1A2B3700DC715E /* DictationDaddyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		4B546BCB2F1A2B9D00DC715E /* daddy-keyboard */ = {
@@ -266,7 +266,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4B546B992F1A2B3400DC715E /* Build configuration list for PBXProject "dictation-daddy" */;
+			buildConfigurationList = 4B546B992F1A2B3400DC715E /* Build configuration list for PBXProject "DictationDaddy" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -280,9 +280,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B546B9D2F1A2B3400DC715E /* dictation-daddy */,
-				4B546BAA2F1A2B3700DC715E /* dictation-daddyTests */,
-				4B546BB42F1A2B3700DC715E /* dictation-daddyUITests */,
+				4B546B9D2F1A2B3400DC715E /* DictationDaddy */,
+				4B546BAA2F1A2B3700DC715E /* DictationDaddyTests */,
+				4B546BB42F1A2B3700DC715E /* DictationDaddyUITests */,
 				4B546BCB2F1A2B9D00DC715E /* daddy-keyboard */,
 			);
 		};
@@ -353,12 +353,12 @@
 /* Begin PBXTargetDependency section */
 		4B546BAD2F1A2B3700DC715E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4B546B9D2F1A2B3400DC715E /* dictation-daddy */;
+			target = 4B546B9D2F1A2B3400DC715E /* DictationDaddy */;
 			targetProxy = 4B546BAC2F1A2B3700DC715E /* PBXContainerItemProxy */;
 		};
 		4B546BB72F1A2B3700DC715E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4B546B9D2F1A2B3400DC715E /* dictation-daddy */;
+			target = 4B546B9D2F1A2B3400DC715E /* DictationDaddy */;
 			targetProxy = 4B546BB62F1A2B3700DC715E /* PBXContainerItemProxy */;
 		};
 		4B546BD22F1A2B9D00DC715E /* PBXTargetDependency */ = {
@@ -572,7 +572,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dictation-daddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dictation-daddy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DictationDaddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DictationDaddy";
 			};
 			name = Debug;
 		};
@@ -594,7 +594,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dictation-daddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dictation-daddy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DictationDaddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DictationDaddy";
 			};
 			name = Release;
 		};
@@ -697,7 +697,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B546B992F1A2B3400DC715E /* Build configuration list for PBXProject "dictation-daddy" */ = {
+		4B546B992F1A2B3400DC715E /* Build configuration list for PBXProject "DictationDaddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B546BBD2F1A2B3700DC715E /* Debug */,
@@ -706,7 +706,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B546BBF2F1A2B3700DC715E /* Build configuration list for PBXNativeTarget "dictation-daddy" */ = {
+		4B546BBF2F1A2B3700DC715E /* Build configuration list for PBXNativeTarget "DictationDaddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B546BC02F1A2B3700DC715E /* Debug */,
@@ -715,7 +715,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B546BC22F1A2B3700DC715E /* Build configuration list for PBXNativeTarget "dictation-daddyTests" */ = {
+		4B546BC22F1A2B3700DC715E /* Build configuration list for PBXNativeTarget "DictationDaddyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B546BC32F1A2B3700DC715E /* Debug */,
@@ -724,7 +724,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B546BC52F1A2B3700DC715E /* Build configuration list for PBXNativeTarget "dictation-daddyUITests" */ = {
+		4B546BC52F1A2B3700DC715E /* Build configuration list for PBXNativeTarget "DictationDaddyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B546BC62F1A2B3700DC715E /* Debug */,
